@@ -214,3 +214,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+datasets/cao2025/new_dataset/
+/datasets
