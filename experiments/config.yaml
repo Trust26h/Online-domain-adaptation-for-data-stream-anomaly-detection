@@ -1,0 +1,93 @@
+
+global_settings:
+  output_dir: "./results"
+  methods:
+    - tumbling
+    - sliding
+    - wasserstein
+    - domain_adaptation
+
+# Dataset configurations
+datasets:
+  - name: "S1"
+    path: "./datasets/cao2025/S1.csv"
+    description: "Dataset S1 from Cao et al. 2025"
+    
+    # Training parameters
+    n_train_samples: 2000
+    
+    # MROT parameters
+    window_size: 400
+    n_history: 5
+    m_barycenter: 3
+    
+    # Thresholds
+    theta_validation: 0.80
+    tau_anomaly: 0.75
+    drift_threshold: 0.5
+    
+    # Retraining
+    K_retrain: 5
+
+  - name: "S2"
+    path: "./datasets/cao2025/S2.csv"
+    description: "Dataset S2 from Cao et al. 2025"
+    
+    # Override global settings for this dataset
+    n_train_samples: 2500
+    window_size: 500
+    n_history: 6
+    m_barycenter: 4
+    theta_validation: 0.85
+    tau_anomaly: 0.80
+    drift_threshold: 0.6
+    K_retrain: 6
+
+  - name: "S3"
+    path: "./datasets/cao2025/S3.csv"
+    description: "Dataset S3 from Cao et al. 2025"
+    
+    # Using default values for most parameters
+    n_train_samples: 2000
+    window_size: 400
+
+  # Add more datasets as needed
+  # - name: "S4"
+  #   path: "./datasets/cao2025/S4.csv"
+  #   ...
+
+# Method-specific settings (optional)
+method_settings:
+  tumbling:
+    enabled: true
+    
+  sliding:
+    enabled: true
+    
+  wasserstein:
+    enabled: true
+    # Method-specific parameters can go here
+    
+  domain_adaptation:
+    enabled: true
+
+# Experiment tracking
+experiment:
+  name: "mrot_comparison_2025"
+  description: "Comparison of MROT methods on multiple datasets"
+  author: "Your Name"
+  date: "2025-02-05"
+  
+# Visualization settings
+visualization:
+  generate_plots: true
+  plot_formats:
+    - png
+    - pdf
+  dpi: 300
+  
+# Export settings
+export:
+  save_json: true
+  save_csv: true
+  save_latex: true
