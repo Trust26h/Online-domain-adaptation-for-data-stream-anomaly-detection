@@ -4,7 +4,7 @@ from collections import deque
 
 from wassertein import WassersteinDriftDetector
 from offline import OfflineMROT
-
+from metrics import Metrics
 
 class OnlineMROTADrate:
     """
@@ -160,8 +160,11 @@ class OnlineMROTADrate:
         data_window = deque(maxlen=self.window_size)
         labels_window = deque(maxlen=self.window_size)
         
+        metrics = Metrics()
+        
         score_list = []
         drift_detected_list = []
+        auc_score_list = []
         
         feature_columns = self.online_data.columns.tolist()
 
@@ -169,7 +172,7 @@ class OnlineMROTADrate:
             data_window.append(self.online_data.iloc[index].values)
             labels_window.append(self.online_labels[index])
             
-            # Attendre que la fenêtre soit pleine
+            
             if len(data_window) == data_window.maxlen:
                 
                 data_array = np.array(data_window)
@@ -177,8 +180,14 @@ class OnlineMROTADrate:
                 labels_array = np.array(labels_window)
                 
                 scores = self._predict(data_df)
+                metrics.update(labels_array, scores)
                 
-                # Step 2: DIAGNOSE
+                if len(set(labels_window)) > 1:
+                    auc_score = self.mrot_model.auc_score(labels_window, scores)
+                    #print(f"AUC Score for current window: {auc_score:.4f}")
+                    auc_score_list.append(auc_score)
+                
+                
                 anomaly_rate, drift_detected = self._diagnose(labels_array, scores)
                 
                 if anomaly_rate is not None:
@@ -189,17 +198,21 @@ class OnlineMROTADrate:
                 if drift_detected:
                     self._update(data_array, labels_array, feature_columns)
         
-        return score_list, drift_detected_list
+        return score_list, drift_detected_list, metrics.get_auc_scores(), auc_score_list
     
     def online_sliding_window(self, stride=1):
     
         data_window = deque(maxlen=self.window_size)
         labels_window = deque(maxlen=self.window_size)
+        metrics = Metrics()
     
         score_list = []
         drift_detected_list = []
+        auc_score_list = []
     
         feature_columns = self.online_data.columns.tolist()
+        
+        
     
         index = 0
         while index < len(self.online_data):
@@ -216,14 +229,17 @@ class OnlineMROTADrate:
                 data_window.append(self.online_data.iloc[i].values)
                 labels_window.append(self.online_labels[i])
         
-        # Traiter la fenêtre si elle est pleine
             if len(data_window) == self.window_size:
                 data_array = np.array(data_window)
                 data_df = pd.DataFrame(data_array, columns=feature_columns)
                 labels_array = np.array(labels_window)
             
                 scores = self._predict(data_df)
-            
+                metrics.update(labels_array, scores)
+                if len(set(labels_window)) > 1:
+                    auc_score = self.mrot_model.auc_score(labels_window, scores)
+                    #print(f"AUC Score for current window: {auc_score:.4f}")
+                    auc_score_list.append(auc_score)
             
                 anomaly_rate, drift_detected = self._diagnose(labels_array, scores)
             
@@ -238,7 +254,7 @@ class OnlineMROTADrate:
         
             index += stride
     
-        return score_list, drift_detected_list
+        return score_list, drift_detected_list, metrics.get_auc_scores(), auc_score_list
     
     def online_tumbling_window(self):
         """
@@ -250,11 +266,12 @@ class OnlineMROTADrate:
         """
         data_window = deque(maxlen=self.window_size)
         labels_window = deque(maxlen=self.window_size)
-        
+        auc_score_list = []
         score_list = []
         drift_detected_list = []
         
         feature_columns = self.online_data.columns.tolist()
+        metrics = Metrics()
 
         for index in range(len(self.online_data)):
             data_window.append(self.online_data.iloc[index].values)
@@ -267,9 +284,16 @@ class OnlineMROTADrate:
                 labels_array = np.array(labels_window)
                 
                 scores = self._predict(data_df)
+                metrics.update(labels_array, scores)
+                if len(set(labels_window)) > 1:
+                    auc_score = self.mrot_model.auc_score(labels_window, scores)
+                    #print(f"AUC Score for current window: {auc_score:.4f}")
+                    auc_score_list.append(auc_score)
+                
                 
                 anomaly_rate, drift_detected = self._diagnose(labels_array, scores)
                 
+                #self.mrot_model.auc_score(labels_array, scores)
                 if anomaly_rate is not None:
                     score_list.append(anomaly_rate)
                 
@@ -281,93 +305,6 @@ class OnlineMROTADrate:
                 data_window.clear()
                 labels_window.clear()
         
-        return score_list, drift_detected_list
+        return score_list, drift_detected_list, metrics.get_auc_scores(), auc_score_list
     
-    
-    
-    def online_adaptive_window(self, min_window_size=50, max_window_size=500):
-        """
-        ADAPTIVE WINDOW (Fenêtre adaptative)
-        
-        La taille de la fenêtre s'ajuste automatiquement selon le taux de changement.
-        Inspiré de ADWIN: agrandit la fenêtre quand stable, réduit quand il y a du changement.
-        
-        Procédure adaptative:
-        1. PREDICT: Calculer les scores d'anomalie
-        2. DIAGNOSE: Évaluer l'AUC et détecter la dérive
-        3. UPDATE: Réentraîner si dérive détectée et ajuster la taille de fenêtre
-        
-        Args:
-            min_window_size: Taille minimale de la fenêtre
-            max_window_size: Taille maximale de la fenêtre
-        """
-        # Initialiser avec la taille minimale
-        current_window_size = self.window_size
-        data_window = deque(maxlen=current_window_size)
-        labels_window = deque(maxlen=current_window_size)
-        
-        score_list = []
-        drift_detected_list = []
-        window_sizes = []
-        
-        feature_columns = self.online_data.columns.tolist()
-        consecutive_stable_windows = 0
-
-        for index in range(len(self.online_data)):
-            # Ajouter la nouvelle observation
-            data_window.append(self.online_data.iloc[index].values)
-            labels_window.append(self.online_labels[index])
-            
-            # Attendre que la fenêtre soit pleine
-            if len(data_window) == current_window_size:
-                
-                # Convertir en arrays
-                data_array = np.array(data_window)
-                data_df = pd.DataFrame(data_array, columns=feature_columns)
-                labels_array = np.array(labels_window)
-                
-                # Step 1: PREDICT
-                scores = self._predict(data_df)
-                
-                # Step 2: DIAGNOSE
-                auc_score, drift_detected = self._diagnose(labels_array, scores)
-                
-                if auc_score is not None:
-                    score_list.append(auc_score)
-                
-                drift_detected_list.append(drift_detected)
-                window_sizes.append(current_window_size)
-                
-                # Step 3: UPDATE et ADAPTATION DE LA TAILLE
-                if drift_detected:
-                    self._update(data_array, labels_array, feature_columns)
-                    
-                    # RÉDUIRE la fenêtre en cas de dérive
-                    current_window_size = max(
-                        min_window_size, 
-                        int(current_window_size * 0.8)
-                    )
-                    print(f" Window size reduced to: {current_window_size}")
-                    consecutive_stable_windows = 0
-                    
-                    # Recréer la fenêtre avec la nouvelle taille
-                    data_window = deque(data_window, maxlen=current_window_size)
-                    labels_window = deque(labels_window, maxlen=current_window_size)
-                else:
-                    # AGRANDIR la fenêtre si stable
-                    consecutive_stable_windows += 1
-                    
-                    if consecutive_stable_windows >= 3:  # Stable pendant 3 fenêtres
-                        current_window_size = min(
-                            max_window_size, 
-                            int(current_window_size * 1.2)
-                        )
-                        print(f" Window size increased to: {current_window_size}")
-                        consecutive_stable_windows = 0
-                        
-                        # Recréer la fenêtre avec la nouvelle taille
-                        data_window = deque(data_window, maxlen=current_window_size)
-                        labels_window = deque(labels_window, maxlen=current_window_size)
-        
-        return score_list, drift_detected_list, window_sizes
     
