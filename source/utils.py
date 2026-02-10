@@ -85,7 +85,7 @@ def plot_auc_over_time(auc_lists, figsize=(16, 6),
     return fig, ax
 
 
-def plot_auc_with_drift(auc_lists, drift_indicators, figsize=(16, 6), 
+def plot_auc_with_drift(auc_lists, drift_indicators, xlabel ="time", ylabel="auc", figsize=(16, 6), 
                         title="AUC Scores Over Time with Concept Drift Detection"):
     """
     Trace l'évolution des scores AUC avec mise en évidence des zones de drift.
@@ -122,25 +122,16 @@ def plot_auc_with_drift(auc_lists, drift_indicators, figsize=(16, 6),
     # Ajouter une légende pour les zones de drift
     from matplotlib.patches import Patch
     legend_elements = [
-        plt.Line2D([0], [0], color='blue', linewidth=2, label='AUC Score'),
+        plt.Line2D([0], [0], color='blue', linewidth=2, label=xlabel),
         Patch(facecolor='red', alpha=0.3, label='Concept Drift Detected')
     ]
     ax.legend(handles=legend_elements, loc='best')
     
-    ax.set_xlabel("Window Index", fontsize=12)
-    ax.set_ylabel("AUC Score", fontsize=12)
+    ax.set_xlabel(xlabel, fontsize=12)
+    ax.set_ylabel(ylabel, fontsize=12)
     ax.set_title(title, fontsize=14, fontweight='bold')
     ax.grid(True, alpha=0.3)
     
-    # Ajouter des statistiques
-    drift_count = np.sum(drift_indicators)
-    drift_percentage = (drift_count / len(drift_indicators)) * 100
-    mean_auc = np.mean(auc_lists)
-    
-    stats_text = f'Drift detected: {drift_count}/{len(drift_indicators)} ({drift_percentage:.1f}%)\nMean AUC: {mean_auc:.3f}'
-    ax.text(0.02, 0.98, stats_text, transform=ax.transAxes, 
-            verticalalignment='top', fontsize=10,
-            bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.7))
     
     plt.tight_layout()
     plt.show()
