@@ -13,7 +13,7 @@ def main(config):
     dl = np.loadtxt(os.path.join(
         config['input path'], 'csv', config['input file']+".csv"), delimiter=',')
     data, label = dl[:, :-2], dl[:, -2]
-    iterator = ArrayStreamer(shuffle=False)
+    iterator = ArrayStreamer(shuffle=False)                                                                     
     model = RobustRandomCutForest(**config['argument'])
     auroc = AUROCMetric()
     t = time.time()
