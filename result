@@ -1,0 +1,1180 @@
+Algorithm: LODA
+File name: COIL20_mix_sudden
+ROC: 0.5000
+Running time: 267.9060
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: dermatology_shake_gradual
+ROC: 0.5000
+Running time: 305.4132
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: dermatology_shake_sudden_2
+ROC: 0.5000
+Running time: 378.3833
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: glass_shake_gradual_2
+ROC: 0.5000
+Running time: 420.4342
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: glass_shake_sudden_2
+ROC: 0.5001
+Running time: 380.3750
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: Ionosphere_shake_gradual
+ROC: 0.4984
+Running time: 305.9930
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: Ionosphere_shake_sudden_2
+ROC: 0.5000
+Running time: 386.5395
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: mice_shake_gradual_2
+ROC: 0.5000
+Running time: 415.4805
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: mice_shake_sudden
+ROC: 0.5001
+Running time: 231.3414
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: seeds_shake_gradual
+ROC: 0.5001
+Running time: 303.7337
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: thyroid_shake_gradual
+ROC: 0.5001
+Running time: 297.9558
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: vowel_shake_gradual
+ROC: 0.5001
+Running time: 301.2111
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: vowel_shake_sudden_2
+ROC: 0.5001
+Running time: 372.9551
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: wine_shake_sudden_2
+ROC: 0.5000
+Running time: 376.2365
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: wine_shake_sudden
+ROC: 0.5001
+Running time: 227.4044
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: WOBC_shake_gradual_2
+ROC: 0.5000
+Running time: 421.9919
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: LODA
+File name: WOBC_shake_sudden
+ROC: 0.5001
+Running time: 228.6380
+num_bins: 10
+num_random_cuts: 100
+
+
+Algorithm: xStream
+File name: COIL20_mix_sudden
+ROC: 0.9363
+Running time: 4773.6244
+num_components: 100
+n_chains: 100
+depth: 25
+window_size: 25
+
+
+Algorithm: xStream
+File name: dermatology_shake_gradual
+ROC: 0.9937
+Running time: 10420.8012
+num_components: 100
+n_chains: 100
+depth: 25
+window_size: 25
+
+
+Algorithm: HSTree
+File name: COIL20_mix_sudden
+ROC: 0.9265
+Running time: 59.5560
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: dermatology_shake_gradual
+ROC: 0.7414
+Running time: 79.1031
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: dermatology_shake_sudden_2
+ROC: 0.7317
+Running time: 99.2326
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: glass_shake_gradual_2
+ROC: 0.7402
+Running time: 109.6019
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: glass_shake_sudden_2
+ROC: 0.7352
+Running time: 99.9928
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: Ionosphere_shake_gradual
+ROC: 0.7318
+Running time: 79.1347
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: Ionosphere_shake_sudden_2
+ROC: 0.7312
+Running time: 98.7775
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: mice_shake_gradual_2
+ROC: 0.7085
+Running time: 109.8427
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: mice_shake_sudden
+ROC: 0.7491
+Running time: 59.5069
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: seeds_shake_gradual
+ROC: 0.7358
+Running time: 79.9484
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: thyroid_shake_gradual
+ROC: 0.7208
+Running time: 80.9923
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: vowel_shake_gradual
+ROC: 0.7259
+Running time: 82.8710
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: vowel_shake_sudden_2
+ROC: 0.7502
+Running time: 100.3233
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: wine_shake_sudden_2
+ROC: 0.7423
+Running time: 99.6080
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: wine_shake_sudden
+ROC: 0.7620
+Running time: 60.0601
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: WOBC_shake_gradual_2
+ROC: 0.7305
+Running time: 109.1832
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: HSTree
+File name: WOBC_shake_sudden
+ROC: 0.7207
+Running time: 59.3238
+window_size: 100
+num_trees: 25
+max_depth: 15
+
+
+Algorithm: RSHash
+File name: COIL20_mix_sudden
+ROC: 0.8979
+Running time: 67.2963
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: dermatology_shake_gradual
+ROC: 0.7299
+Running time: 90.1283
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: dermatology_shake_sudden_2
+ROC: 0.7130
+Running time: 113.2897
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: glass_shake_gradual_2
+ROC: 0.7527
+Running time: 124.8335
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: glass_shake_sudden_2
+ROC: 0.7496
+Running time: 113.5558
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: Ionosphere_shake_gradual
+ROC: 0.7325
+Running time: 91.0223
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: Ionosphere_shake_sudden_2
+ROC: 0.7337
+Running time: 116.8596
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: mice_shake_gradual_2
+ROC: 0.7199
+Running time: 127.0245
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: mice_shake_sudden
+ROC: 0.7365
+Running time: 69.7761
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: seeds_shake_gradual
+ROC: 0.7227
+Running time: 90.1694
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: thyroid_shake_gradual
+ROC: 0.5904
+Running time: 91.9488
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: vowel_shake_gradual
+ROC: 0.7456
+Running time: 92.0929
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: vowel_shake_sudden_2
+ROC: 0.7548
+Running time: 116.5705
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: wine_shake_sudden_2
+ROC: 0.7398
+Running time: 113.0969
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: wine_shake_sudden
+ROC: 0.7530
+Running time: 67.7712
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: WOBC_shake_gradual_2
+ROC: 0.7325
+Running time: 125.1210
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: RSHash
+File name: WOBC_shake_sudden
+ROC: 0.7356
+Running time: 68.3509
+sampling_points: 1000
+decay: 0.015
+num_components: 100
+num_hash_fns: 1
+
+
+Algorithm: IForestASD
+File name: COIL20_mix_sudden
+ROC: 0.9362
+Running time: 407.0020
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: dermatology_shake_gradual
+ROC: 0.9839
+Running time: 240.9803
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: dermatology_shake_sudden_2
+ROC: 0.9850
+Running time: 250.5430
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: glass_shake_gradual_2
+ROC: 0.9826
+Running time: 253.1696
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: glass_shake_sudden_2
+ROC: 0.9864
+Running time: 243.7254
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: Ionosphere_shake_gradual
+ROC: 0.9748
+Running time: 244.2440
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: Ionosphere_shake_sudden_2
+ROC: 0.9758
+Running time: 256.0585
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: mice_shake_gradual_2
+ROC: 0.9995
+Running time: 264.8061
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: mice_shake_sudden
+ROC: 0.9999
+Running time: 233.9558
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: seeds_shake_gradual
+ROC: 0.9539
+Running time: 234.3272
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: thyroid_shake_gradual
+ROC: 0.9665
+Running time: 239.8461
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: vowel_shake_gradual
+ROC: 0.9853
+Running time: 242.8597
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: vowel_shake_sudden_2
+ROC: 0.9878
+Running time: 259.9601
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: wine_shake_sudden_2
+ROC: 0.9813
+Running time: 259.4311
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: wine_shake_sudden
+ROC: 0.9835
+Running time: 234.6866
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: WOBC_shake_gradual_2
+ROC: 0.9228
+Running time: 259.7920
+window_size: 2048
+
+
+Algorithm: IForestASD
+File name: WOBC_shake_sudden
+ROC: 0.9409
+Running time: 243.8898
+window_size: 2048
+
+
+Algorithm: LODA
+File name: COIL20_mix_sudden
+ROC: 0.5001
+Running time: 133.5574
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: COIL20_mix_sudden
+ROC: 0.5000
+Running time: 545.3461
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: dermatology_shake_gradual
+ROC: 0.5000
+Running time: 156.7934
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: dermatology_shake_gradual
+ROC: 0.5000
+Running time: 613.5509
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: dermatology_shake_sudden_2
+ROC: 0.5000
+Running time: 197.4930
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: dermatology_shake_sudden_2
+ROC: 0.5000
+Running time: 6874.9220
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: glass_shake_gradual_2
+ROC: 0.5000
+Running time: 206.4063
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: glass_shake_gradual_2
+ROC: 0.5000
+Running time: 840.7463
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: glass_shake_sudden_2
+ROC: 0.5001
+Running time: 191.7697
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: glass_shake_sudden_2
+ROC: 0.5000
+Running time: 769.1700
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: Ionosphere_shake_gradual
+ROC: 0.4992
+Running time: 156.3619
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: Ionosphere_shake_gradual
+ROC: 0.5000
+Running time: 613.2512
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: Ionosphere_shake_sudden_2
+ROC: 0.5000
+Running time: 192.8673
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: Ionosphere_shake_sudden_2
+ROC: 0.5000
+Running time: 763.2072
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: mice_shake_gradual_2
+ROC: 0.5000
+Running time: 213.5969
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: mice_shake_gradual_2
+ROC: 0.5000
+Running time: 853.1409
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: mice_shake_sudden
+ROC: 0.5001
+Running time: 118.7815
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: mice_shake_sudden
+ROC: 0.5000
+Running time: 465.1393
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: seeds_shake_gradual
+ROC: 0.5000
+Running time: 154.3964
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: seeds_shake_gradual
+ROC: 0.5000
+Running time: 605.0123
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: thyroid_shake_gradual
+ROC: 0.5001
+Running time: 150.6085
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: thyroid_shake_gradual
+ROC: 0.5000
+Running time: 597.3701
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: vowel_shake_gradual
+ROC: 0.5001
+Running time: 150.5755
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: vowel_shake_gradual
+ROC: 0.5000
+Running time: 599.0767
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: vowel_shake_sudden_2
+ROC: 0.5001
+Running time: 191.9505
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: vowel_shake_sudden_2
+ROC: 0.5000
+Running time: 746.5807
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: wine_shake_sudden_2
+ROC: 0.5000
+Running time: 187.2652
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: wine_shake_sudden_2
+ROC: 0.5000
+Running time: 738.8797
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: wine_shake_sudden
+ROC: 0.5001
+Running time: 111.8318
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: wine_shake_sudden
+ROC: 0.5000
+Running time: 11311.6836
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: WOBC_shake_gradual_2
+ROC: 0.5000
+Running time: 205.3012
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: WOBC_shake_gradual_2
+ROC: 0.5000
+Running time: 811.5355
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: LODA
+File name: WOBC_shake_sudden
+ROC: 0.5001
+Running time: 111.8165
+num_bins: 20
+num_random_cuts: 50
+
+
+Algorithm: LODA
+File name: WOBC_shake_sudden
+ROC: 0.5000
+Running time: 443.4601
+num_bins: 5
+num_random_cuts: 200
+
+
+Algorithm: xStream
+File name: COIL20_mix_sudden
+ROC: 0.9521
+Running time: 1829.8330
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: COIL20_mix_sudden
+ROC: 0.8416
+Running time: 12899.2615
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: dermatology_shake_gradual
+ROC: 0.9950
+Running time: 824.8150
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: dermatology_shake_gradual
+ROC: 0.9769
+Running time: 13122.9019
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: dermatology_shake_sudden_2
+ROC: 0.9959
+Running time: 1035.1060
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: dermatology_shake_sudden_2
+ROC: 0.9799
+Running time: 13842.5437
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: glass_shake_gradual_2
+ROC: 0.9195
+Running time: 1135.0522
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: glass_shake_gradual_2
+ROC: 0.9207
+Running time: 14919.9533
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: glass_shake_sudden_2
+ROC: 0.8905
+Running time: 958.8371
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: glass_shake_sudden_2
+ROC: 0.9300
+Running time: 13348.0487
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: Ionosphere_shake_gradual
+ROC: 0.9233
+Running time: 821.6598
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: Ionosphere_shake_gradual
+ROC: 0.9028
+Running time: 10756.1457
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: Ionosphere_shake_sudden_2
+ROC: 0.9204
+Running time: 1028.3325
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: Ionosphere_shake_sudden_2
+ROC: 0.9103
+Running time: 13838.0235
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: mice_shake_gradual_2
+ROC: 0.9974
+Running time: 1271.0505
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: mice_shake_gradual_2
+ROC: 0.9835
+Running time: 15735.4328
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: mice_shake_sudden
+ROC: 0.9946
+Running time: 674.8051
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: mice_shake_sudden
+ROC: 0.9806
+Running time: 12506.7303
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: seeds_shake_gradual
+ROC: 0.9300
+Running time: 785.6078
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: seeds_shake_gradual
+ROC: 0.9117
+Running time: 13035.0722
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: thyroid_shake_gradual
+ROC: 0.8783
+Running time: 778.6036
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: thyroid_shake_gradual
+ROC: 0.8707
+Running time: 10605.2892
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: vowel_shake_gradual
+ROC: 0.9795
+Running time: 793.2603
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: vowel_shake_gradual
+ROC: 0.9590
+Running time: 10648.0882
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: vowel_shake_sudden_2
+ROC: 0.9695
+Running time: 976.9534
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: vowel_shake_sudden_2
+ROC: 0.9602
+Running time: 13309.5493
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: wine_shake_sudden_2
+ROC: 0.9465
+Running time: 977.8570
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: wine_shake_sudden_2
+ROC: 0.9634
+Running time: 14598.4504
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: wine_shake_sudden
+ROC: 0.9581
+Running time: 609.9778
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
+Algorithm: xStream
+File name: wine_shake_sudden
+ROC: 0.9706
+Running time: 8283.8022
+num_components: 200
+n_chains: 200
+depth: 35
+window_size: 10
+
+
+Algorithm: xStream
+File name: WOBC_shake_gradual_2
+ROC: 0.9771
+Running time: 1363.8735
+num_components: 50
+n_chains: 50
+depth: 15
+window_size: 50
+
+
