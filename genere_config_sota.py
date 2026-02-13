@@ -23,7 +23,7 @@ hyperparameter_variants = {
         {"window_size": 200, "num_trees": 35, "max_depth": 20}
     ],
     
-    "RSHash": [
+    "RSHash": [ 
         {"sampling_points": 1000, "decay": 0.015, "num_components": 100, "num_hash_fns": 1},
         {"sampling_points": 500, "decay": 0.01, "num_components": 50, "num_hash_fns": 2},
         {"sampling_points": 2000, "decay": 0.02, "num_components": 200, "num_hash_fns": 1}
