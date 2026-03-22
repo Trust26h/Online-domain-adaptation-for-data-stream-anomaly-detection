@@ -1,0 +1,2852 @@
+[
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 20,
+            "num_random_cuts": 50
+        }
+    },
+    {
+        "name": "LODA",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_bins": 5,
+            "num_random_cuts": 200
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 50,
+            "n_chains": 50,
+            "depth": 15,
+            "window_size": 50
+        }
+    },
+    {
+        "name": "xStream",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "num_components": 200,
+            "n_chains": 200,
+            "depth": 35,
+            "window_size": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 50,
+            "num_trees": 15,
+            "max_depth": 10
+        }
+    },
+    {
+        "name": "HSTree",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 200,
+            "num_trees": 35,
+            "max_depth": 20
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 500,
+            "decay": 0.01,
+            "num_components": 50,
+            "num_hash_fns": 2
+        }
+    },
+    {
+        "name": "RSHash",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "sampling_points": 2000,
+            "decay": 0.02,
+            "num_components": 200,
+            "num_hash_fns": 1
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 1024
+        }
+    },
+    {
+        "name": "IForestASD",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "window_size": 4096
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "COIL20_mix_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "dermatology_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "glass_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "Ionosphere_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "isolet_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "mice_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "seeds_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "thyroid_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_gradual",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "vowel_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "wine_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_gradual_2",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 256,
+            "min_batch_size": 16,
+            "init_epoch": 10,
+            "intm_epoch": 2,
+            "hidden_dim": 16,
+            "layer_num": 2,
+            "learning_rate": 0.0005,
+            "reliability_thred": 0.9,
+            "similarity_thred": 0.7
+        }
+    },
+    {
+        "name": "ARCUS",
+        "input path": "datasets/cao2025/new_dataset",
+        "input file": "WOBC_shake_sudden",
+        "output path": "result",
+        "argument": {
+            "model_type": "RAPP",
+            "inf_type": "ADP",
+            "seed": 0,
+            "gpu": "0",
+            "batch_size": 1024,
+            "min_batch_size": 64,
+            "init_epoch": 3,
+            "intm_epoch": 1,
+            "hidden_dim": 32,
+            "layer_num": 4,
+            "learning_rate": 5e-05,
+            "reliability_thred": 0.98,
+            "similarity_thred": 0.85
+        }
+    }
+]
