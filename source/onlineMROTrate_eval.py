@@ -6,6 +6,10 @@ from wassertein import WassersteinDriftDetector
 from offline import OfflineMROT
 from metrics import Metrics
 
+from typing import Optional
+import ot
+
+
 class OnlineMROTADrate:
     """
     Online MROT Anomaly Detection with Adaptive Learning Procedure
@@ -101,14 +105,7 @@ class OnlineMROTADrate:
         return anomaly_rate
     
     def _diagnose(self, y_true, y_pred):
-        """
-        Version alternative de DIAGNOSE qui utilise le taux d'anomalies détectées.
-        Détecte une dérive si le taux d'anomalies dépasse un seuil.
-        
-        Returns:
-            anomaly_rate: Taux d'anomalies détectées
-            drift_detected: Boolean indiquant si une dérive est détectée
-        """
+
         anomaly_rate = self.anomaly_rate(y_true, y_pred)
         drift_detected = anomaly_rate > self.threshold
         
@@ -116,28 +113,6 @@ class OnlineMROTADrate:
             print(f"  DRIFT détecté ! Taux d'anomalies: {anomaly_rate:.3f} (seuil: {self.threshold})")
         
         return anomaly_rate, drift_detected
-    
-    def _diagnose2(self, y_true, y_pred):
-
-        if not hasattr(self, 'window'):
-            self.window = {'y_true': deque(maxlen=1000), 'y_pred': deque(maxlen=1000)}
-    
-        self.window['y_true'].extend(y_true)
-        self.window['y_pred'].extend(y_pred)
-    
-        window_y_true = np.array(self.window['y_true'])
-        window_y_pred = np.array(self.window['y_pred'])
-    
-        # Calculer AUC seulement si les deux classes sont présentes
-        unique_classes = len(set(window_y_true))
-    
-        if unique_classes > 1 and len(window_y_true) >= self.window_size:
-            auc_score = self.mrot_model.auc_score(window_y_true, window_y_pred)
-            drift_detected = auc_score < self.theta_validation
-            return auc_score, drift_detected
-    
-        return None, False
-    
     
     def _update(self, data_array, labels_array, feature_columns):
         """
@@ -308,71 +283,29 @@ class OnlineMROTADrate:
         return score_list, drift_detected_list, metrics.get_auc_scores(), auc_score_list
     
     
-    def online_tumbling_window_domain_adaption(self):
-        """
-        TUMBLING WINDOW (Fenêtre basculante / Non-overlapping)
+                
+    def domain_adaption(self, source, target):
+        n_source = source.shape[0]
+        n_target = target.shape[0]
         
-        Fenêtres successives de longueur égale sans chevauchement.
-        Chaque observation appartient à une seule fenêtre.
-        b_{j} = e_{i} pour S_i et S_j consécutifs.
-        """
-        data_window = deque(maxlen=self.window_size)
-        labels_window = deque(maxlen=self.window_size)
-        auc_score_list = []
-        score_list = []
-        drift_detected_list = []
-        previous_window_data = None
+        ps = np.ones(n_source) / n_source
+        pt = np.ones(n_target) / n_target
         
-        feature_columns = self.online_data.columns.tolist()
-        metrics = Metrics()
+        M = ot.dist(source, target, metric='euclidean')
+                
+        #P = ot.sinkhorn(ps, pt, M, self.reg_entropy, numItermax=1000)
 
-        for index in range(len(self.online_data)):
-            data_window.append(self.online_data.iloc[index].values)
-            labels_window.append(self.online_labels[index])
-            
-            if len(data_window) == data_window.maxlen:
-                
-                data_array = np.array(data_window)
-                data_df = pd.DataFrame(data_array, columns=feature_columns)
-                labels_array = np.array(labels_window)
-                
-                scores = self._predict(data_df)
-                metrics.update(labels_array, scores)
-                if len(set(labels_window)) > 1:
-                    auc_score = self.mrot_model.auc_score(labels_window, scores)
-                    #print(f"AUC Score for current window: {auc_score:.4f}")
-                    auc_score_list.append(auc_score)
-                
-                
-                anomaly_rate, drift_detected = self._diagnose(labels_array, scores)
-                
-                #self.mrot_model.auc_score(labels_array, scores)
-                if anomaly_rate is not None:
-                    score_list.append(anomaly_rate)
-                
-                drift_detected_list.append(drift_detected)
-                
-                if drift_detected:
-                    if previous_window_data is not None:
-                        sample_to_retrain, transport_loss = self.domain_adaption(previous_window_data, data_array)
-                        print(f"Transport loss for domain adaptation: {transport_loss:.4f}")
-                        self._update(sample_to_retrain, labels_array, feature_columns)
-                    else:
-                        self._update(data_array, labels_array, feature_columns)
-                else:
-                    previous_window_data = data_array.copy()
-                    #self.wassertein.add_windows_batch(previous_window_data)
-                
-                data_window.clear()
-                labels_window.clear()
-        
-        return score_list, drift_detected_list, metrics.get_auc_scores(), auc_score_list
+        #transported_source = n_source * P @ target
+        P = ot.emd(ps, pt, M)
+
+        transported_source = n_source * P @ target
+        transport_loss = np.sum(P * M)
+    
+        return transported_source, transport_loss
     
     
     
-    
-    
-    def online_sliding_window_with_domain_adaptation_(self, stride=2):
+    def online_sliding_window_with_domain_adaptation(self, stride=2):
     
         data_window = deque(maxlen=self.window_size)
         labels_window = deque(maxlen=self.window_size)
@@ -383,7 +316,7 @@ class OnlineMROTADrate:
         auc_score_list = []
     
         feature_columns = self.online_data.columns.tolist()
-        
+        previous = None
         
     
         index = 0
@@ -421,9 +354,15 @@ class OnlineMROTADrate:
                 drift_detected_list.append(drift_detected)
             
                 if drift_detected:
-                    sample_to_retrain, transport_loss = self.wassertein.domain_adaption(self.wassertein.compute_historical_barycenter(), data_array)
-                    self._update(sample_to_retrain, labels_array, feature_columns)
-        
+                    if previous is not None:
+                        sample_to_retrain, transport_loss = self.domain_adaption(
+                            previous['data'], data_array
+                                    )
+                        self._update(sample_to_retrain, previous['labels'], feature_columns)
+                    else:
+                        self._update(data_array, labels_array, feature_columns)
+                else:
+                    previous = {'data': data_array.copy(), 'labels': labels_array.copy()}
         
             index += stride
     
