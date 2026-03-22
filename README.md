@@ -9,13 +9,7 @@ ONLINEMROTAD/
 │   ├── cao2025/           # CAO 2025 dataset
 │   └── files/             # Additional data files
 │       └── glass_shake_sudden_2.csv
-├── experiments/           # Experiment configurations and runners
-│   ├── compare_results.py
-│   ├── config.yaml
-│   ├── experiment_runner.py
-│   ├── run_experiments.py
-│   ├── run_from_config.py
-│   └── setup.sh
+
 ├── results/               # Experimental results
 │   ├── experiment_20260205_145501/
 │   ├── experiment_20260205_152112/
@@ -24,17 +18,13 @@ ONLINEMROTAD/
 │   ├── __init__.py
 │   ├── mrot.py           # Main MROT implementation
 │   ├── offline.py        # Offline processing
-│   ├── online.py         # Online processing
 │   ├── onlineMROTauc_eval.py
-│   ├── onlineMROTwasserstein.py
 │   └── utils.py          # Utility functions
-│   └── wasserstein.py    # Wasserstein distance calculations
 ├── notebooks/             # Jupyter notebooks for analysis
 │   ├── datasets.ipynb
 │   ├── experiments.ipynb
 │   ├── mrot_copy.ipynb
 │   ├── online.ipynb
-│   └── Segment.ipynb
 ├── .gitignore
 ├── README.md
 └── datasets.dvc          # DVC configuration for data versioning
@@ -46,9 +36,7 @@ ONLINEMROTAD/
 - **Multi-target Tracking**: Advanced algorithms for tracking multiple targets simultaneously
 - **Online and Offline Modes**: Support for both real-time and batch processing
 - **Anomaly Detection**: Integrated anomaly detection capabilities
-- **Wasserstein Distance**: Implementation of Wasserstein metrics for evaluation
 - **Experimental Framework**: Comprehensive experiment management and comparison tools
-- **Configurable Pipeline**: YAML-based configuration system
 
 ##  Getting Started
 
@@ -93,19 +81,6 @@ cd experiments
 python run_from_config.py
 ```
 
-Edit `experiments/config.yaml` to customize experimental parameters.
-
-### Running Individual Experiments
-
-```bash
-python experiment_runner.py
-```
-
-### Comparing Results
-
-```bash
-python compare_results.py
-```
 
 Results are automatically saved to the `results/` directory with timestamps.
 
@@ -117,7 +92,7 @@ Interactive Jupyter notebooks are available for exploration and analysis:
 - `experiments.ipynb`: Experiment visualization and analysis
 - `datasets.ipynb`: Dataset exploration
 - `Segment.ipynb`: Segmentation analysis
-- `mrot_copy.ipynb`: MROT algorithm walkthrough
+
 
 To launch notebooks:
 ```bash
@@ -129,11 +104,9 @@ jupyter notebook
 ### Source Modules
 
 - **mrot.py**: Main multi-target tracking implementation
-- **online.py**: Real-time processing pipeline
 - **offline.py**: Batch processing capabilities
 - **wasserstein.py**: Wasserstein distance calculations
-- **onlineMROTwasserstein.py**: Online Wasserstein-based evaluation
-- **onlineMROTauc_eval.py**: AUC-based evaluation metrics
+- **onlineMROTrate_eval.py**: Online Anomalyrate-based evaluation
 - **utils.py**: Shared utility functions
 
 ##  Results
@@ -144,7 +117,7 @@ Experimental results are organized by timestamp in the `results/` directory:
 
 ##  Configuration
 
-Experiments are configured via `experiments/config.yaml`. Key parameters include:
+Experiments are configured via `sota_` files and. Key parameters include:
 
 - Dataset selection
 - Algorithm parameters
