@@ -64,8 +64,7 @@ class WassersteinDriftDetector:
         """Calcule la distance avec Sliced Wasserstein (plus rapide et robuste)."""
     
         try:
-            # Sliced Wasserstein est beaucoup plus rapide et ne nécessite pas de convergence
-            # je veux tester cette approche plus tard apres bonne comprehension de slice
+            
             distance = ot.sliced_wasserstein_distance(
                 barycenter, 
             current_window,
@@ -113,63 +112,7 @@ class WassersteinDriftDetector:
         threshold = mu_d + self.k_sensitivity * sigma_d
         return threshold
     
-    
-    def compute_historical_barycenter_old(self, use_cache: bool = True) -> Optional[np.ndarray]:
 
-        if self.get_size_historical_windows() < self.m_barycenter:
-            return None
-    
-        if use_cache and self._cache_valid and self._cached_barycenter is not None:
-            return self._cached_barycenter
-    
-
-        selected_windows = list(self.historical_windows)[-self.m_barycenter:]
-        n_windows = len(selected_windows)
-        
-        # Shape: (n_windows, window_size, n_features)
-        windows_array = np.array(selected_windows)
-    
-        if windows_array.ndim == 3:
-            # Aplatir chaque fenêtre : (window_size * n_features,)
-            n_features = windows_array.shape[2]
-            flattened_windows = [w.flatten() for w in selected_windows]
-            windows_array = np.array(flattened_windows).T  # Shape: (window_size*n_features, n_windows)
-        else:
-           
-            windows_array = windows_array.T  # Shape: (window_size, n_windows)
-    
-        weights = np.ones(n_windows) / n_windows 
-    
-        n_points = windows_array.shape[0]
-        points_indices = np.arange(n_points).reshape(-1, 1)
-        M = ot.dist(points_indices, points_indices, metric='euclidean')
-        try:
-            barycenter_flat = ot.bregman.barycenter_sinkhorn(
-                A=windows_array,          
-            M=M,                       
-            reg=self.reg_entropy,       # Régularisation entropique
-            weights=weights,           
-            numItermax=3000,           
-            verbose=False
-            )
-        
-            # Reformater le barycentre dans la forme originale
-            original_shape = selected_windows[0].shape  
-            if len(original_shape) > 1:
-                barycenter = barycenter_flat.reshape(original_shape)
-            else:
-                barycenter = barycenter_flat
-        
-            # Mettre en cache
-            self._cached_barycenter = barycenter
-            self._cache_valid = True
-        
-            return barycenter
-        
-        except Exception as e:
-            print(f" Erreur lors du calcul du barycentre: {e}")
-            return None
-        
         
     def compute_historical_barycenter(self, use_cache: bool = True) -> Optional[np.ndarray]:
 
